@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container,NavDropdown } from 'react-bootstrap';
+import { Navbar, Nav, Container,NavDropdown,Button } from 'react-bootstrap';
 import logo from '../assets/logo.png';
 
 const Header = () => {
@@ -18,8 +18,8 @@ const Header = () => {
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="ml-auto">
             <Nav.Link href="#">About Me</Nav.Link>
-            <Nav.Link href="#">Projects</Nav.Link>
             <Nav.Link href="#">Skills</Nav.Link>
+            <Nav.Link href="#">Projects</Nav.Link>
             <NavDropdown title="Contact Me" id="collapsible-nav-dropdown">
               <NavDropdown.Item>Mail Me</NavDropdown.Item>
               <NavDropdown.Item>Whatsapp Me</NavDropdown.Item>
@@ -28,6 +28,7 @@ const Header = () => {
               <NavDropdown.Item>View UpWork Profile</NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Button variant="dark">Link Tree </Button>
         </Navbar.Collapse>
       </Container>
     </Navbar>

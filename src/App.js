@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Intro from './pages/intro';
+import MainPage from './pages/MainPage';
 
 const App = () => {
   return (
     <div>
-      <Intro />
+      <MainPage />
     </div>
   )
 }
