@@ -1,10 +1,10 @@
 import React from 'react';
-import { Navbar, Nav, Container,NavDropdown,Button } from 'react-bootstrap';
+import { Navbar,Nav,Container,NavDropdown,Button,DropdownButton,ButtonGroup,Dropdown } from 'react-bootstrap';
 import logo from '../assets/logo.png';
 
 const Header = () => {
   return (
-    <Navbar expand="lg" bg="light" variant="light">
+    <Navbar  expand="lg" bg="light" variant="light">
       <Container fluid>
         <Navbar.Brand href="#" className="mr-auto">
           <img
@@ -28,8 +28,12 @@ const Header = () => {
               <NavDropdown.Item>View UpWork Profile</NavDropdown.Item>
             </NavDropdown>
           </Nav>
-          <Button variant="dark">Link Tree </Button>
+          <DropdownButton variant="dark" as={ButtonGroup} title="Projects">
+            <Dropdown.Item>See Projects Overview</Dropdown.Item>
+            <Dropdown.Item>All Projects In Details</Dropdown.Item>
+          </DropdownButton>
         </Navbar.Collapse>
+        <Button variant="dark" className="ms-2">Social Link</Button>
       </Container>
     </Navbar>
   );

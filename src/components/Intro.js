@@ -50,6 +50,7 @@ const Intro = () => {
           </Col>
         </Row>
       </Container>
+      <br />
     </div>
     </>
  )
