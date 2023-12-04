@@ -1,10 +1,19 @@
-import React from 'react';
-import { Navbar,Nav,Container,NavDropdown,Button,DropdownButton,ButtonGroup,Dropdown } from 'react-bootstrap';
-import logo from '../assets/logo.png';
+import React from "react";
+import {
+  Navbar,
+  Nav,
+  Container,
+  NavDropdown,
+  Button,
+  DropdownButton,
+  ButtonGroup,
+  Dropdown,
+} from "react-bootstrap";
+import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <Navbar  expand="lg" bg="light" variant="light">
+    <Navbar expand="lg" bg="light" variant="light">
       <Container fluid>
         <Navbar.Brand href="#" className="mr-auto">
           <img
@@ -33,7 +42,9 @@ const Header = () => {
             <Dropdown.Item>All Projects In Details</Dropdown.Item>
           </DropdownButton>
         </Navbar.Collapse>
-        <Button variant="dark" className="ms-2">Social Link</Button>
+        <Button variant="dark" className="ms-2">
+          Social Link
+        </Button>
       </Container>
     </Navbar>
   );
