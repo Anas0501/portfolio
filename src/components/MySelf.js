@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Image, Card, Button } from "react-bootstrap";
-import profilePic from "../assets/profile-pic.png";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 const MySelf = () => {
   const style = {
@@ -41,7 +40,6 @@ const MySelf = () => {
             className="d-flex align-items-center"
             style={style.imageContainer}
           >
-            <Image style={style.image} src={profilePic} roundedCircle />
           </Col>
         </Row>
         <Card style={style.card} className="text-right">

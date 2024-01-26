@@ -39,9 +39,6 @@ const Intro = () => {
                   A highly skilled and dedicated
                   <br />
                   <h1 style={textStyle}> Full Stack Web Developer</h1>
-                  with a specialization in the MERN
-                  <br />
-                  (MongoDB, Express.js, React, Node.js) stack.
                 </h1>
                 <p>
                   Where Creativity Meets Code,
